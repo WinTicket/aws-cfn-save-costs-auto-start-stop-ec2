@@ -63,7 +63,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: AutoStartEC2Instance
-      Runtime: python3.9
+      Runtime: python3.12
       MemorySize: 128
       Handler: AutoStartEC2Instance.lambda_handler
       Timeout: 60
@@ -99,7 +99,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: AutoStopEC2Instance
-      Runtime: python3.9
+      Runtime: python3.12
       MemorySize: 128
       Handler: AutoStopEC2Instance.lambda_handler
       Timeout: 60
@@ -135,7 +135,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: EC2StopWeekDay
-      Runtime: python3.9
+      Runtime: python3.12
       MemorySize: 128
       Handler: EC2StopWeekDay.lambda_handler
       Timeout: 60
@@ -175,7 +175,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: EC2StartWeekDay
-      Runtime: python3.9
+      Runtime: python3.12
       MemorySize: 128
       Handler: EC2StartWeekDay.lambda_handler
       Timeout: 60
@@ -215,7 +215,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: EC2StopWeekEnd
-      Runtime: python3.9
+      Runtime: python3.12
       MemorySize: 128
       Handler: EC2StopWeekEnd.lambda_handler
       Timeout: 60
@@ -255,7 +255,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: EC2StartWeekEnd
-      Runtime: python3.9
+      Runtime: python3.12
       MemorySize: 128
       Handler: EC2StartWeekEnd.lambda_handler
       Timeout: 60
